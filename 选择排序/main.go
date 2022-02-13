@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// 选择排序时间复杂度：n*n=n2
 func main() {
 	items := []int{3, 4, 11, 9, 5, 20, 9}
 

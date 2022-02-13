@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// ----
+// 时间复杂度：nlog2n(最差的情况跟选择排序一样n*n=n2)
 func main() {
 	item := []int{12, 11, 4, 21, 44, 99, 88, 77, 102}
 	fmt.Println(quicksort(item))
